@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  background-color: purple;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  scrollbar-width: thin;
+  scrollbar-color: #804dee #ddd;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+/* aa  */
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom right, #4d7fff 0%, #804dee 100%);
+  border-radius: 5px;
+}
+ 
+body::-webkit-scrollbar-track {
+  background-color: #000;
+  border: 1px solid #4d7fff;
+  border-radius: 1rem;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background-image: url('./media/herobg.png');
+  background-size: cover;
+  animation: moveBackground 20s linear infinite;
+}
+
+@keyframes moveBackground { 
+  0% {
+    background-position: 0 0;
+  }
+
+  25% {
+    background-position: 75% 45%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  75% {
+    background-position: 45% 75%;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+
+main {
+  margin-top: 2rem;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.about-me {
+  background-image: url('./media/color-ball.png');
+  background-size: cover;
+  animation: moveBackground 20s infinite 0.5s;
+}
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.modal-content img {
+  filter: drop-shadow(3px 3px 5px #804dee) sepia(0) drop-shadow(-3px -3px 5px #804dee);
+}
+
+.carousel-indicators {
+  bottom: -40px !important;
+}
+
+#link .fa-arrow-up {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  padding: 1rem;
+  background-color: inherit;
+  border-radius: 50%;
+  border: 1px solid violet;
+  z-index: 8;
+}
+
+.link {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+}
+
+.link:hover {
+  color: black;
+  background-color: white;
+}
+
+@media screen and (max-width: 769px) {
+  #link .fa-arrow-up {
+    font-size: small;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  #link {
+    background-color: #000;
+  }
+
+  .text {
+    margin-right: 0 !important;
+  }
+}
