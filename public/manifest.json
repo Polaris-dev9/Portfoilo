@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "short_name": "Mayank Agarwal",
   "name": "Mayank Agarwal - Portfolio",
   "icons": [
@@ -6,6 +7,25 @@
       "src": "images/logo.png",
       "type": "image/png",
       "sizes": "425x225"
+=======
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+>>>>>>> 5b8c48d20a7a26600f2840b110a1bc877dc062b7
     }
   ],
   "start_url": ".",

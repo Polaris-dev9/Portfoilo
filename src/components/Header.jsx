@@ -6,7 +6,7 @@ function Header(props) {
   const { title } = props;
   return <div className="header">{title}</div>;
 }
-// HEAD
+
 Header.propTypes = {
   title: PropTypes.string.isRequired,
 };

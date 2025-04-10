@@ -1,3 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+<<<<<<< HEAD
 Disallow:
+=======
+>>>>>>> 5b8c48d20a7a26600f2840b110a1bc877dc062b7
